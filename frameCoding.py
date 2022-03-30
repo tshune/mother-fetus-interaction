@@ -164,7 +164,7 @@ while(cap.isOpened()):
         #add action code to 3rd column
         sheet['C' + str(rowIndex)] = 7
     else:
-        print("WTF")
+        print("INVALID")
 
         #add frame # to 1st column
         sheet['A' + str(rowIndex)] = frameIndex
